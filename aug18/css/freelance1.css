@@ -1,0 +1,25 @@
+.container {
+	display:flex;
+	flex-basis:150px;
+}
+.cut1{
+	text-align:right;
+	background-color:#C61C7A
+}
+.cut2{
+	text-align:center;
+	background-color:#DD0E46
+}
+.cut3{
+	text-align:center;
+	background-color:#BC0EDD
+}
+.cut4{
+	text-align:center;
+	background-color:#0EB1DD
+}
+.navigate h1{
+	background-color:#8F8887
+	padding:2000px;
+	
+}
