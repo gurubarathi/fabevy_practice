@@ -1,0 +1,45 @@
+
+.frst1 h1,h2{
+	color:blue;
+	
+}
+.frst1 h4,h5{
+	color:red;
+}
+#frst2 {
+	color:yellow;
+}
+group h6,h3 {
+	color:green;
+}
+*h6{
+	color:blue;
+}
+div p{
+	color:red;
+}
+div>h2{
+	color:blue;
+}
+div+h4{
+	color:red;
+}
+div~h3{
+	color:red;
+}
+header{
+	display:flex;
+	width:100;
+}
+a:link{
+	color:red;
+}
+a:visited{
+	color:green;
+}
+a:hover{
+	color:blue;
+}
+a:active{
+	color:dark;
+}
