@@ -21,5 +21,15 @@
 .navigate h1{
 	background-color:#8F8887
 	padding:2000px;
+	}
+.topof{
+	background-color:white;
+}
+footer{
+	background-color:black;
 	
+}
+.roww1{
+	diplay:flex;
+	text-colour:white;
 }
