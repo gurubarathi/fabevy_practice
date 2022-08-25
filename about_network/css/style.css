@@ -1,3 +1,21 @@
+header{
+	background-color:#0d4a57;
+	height:10vh;
+}
+.first10{
+	margin:5px;
+	padding:25px;
+
+	
+}
+div a{
+	color:#16c943;
+	padding:25px;
+	font-family:impact;
+	text-decoration:none;
+	
+}
+
 h1{
 	
 	text-align:center;
@@ -8,13 +26,15 @@ p{
 	text-indent:90px;
 	font-size:25px;
 }
-body{
+main{
     
 	color:white;
 	background-image:url(backblack.png);
 	background-repeat:no-repeat;
     background-size:cover;
     background-position:scroll;
+	border:5px solid #0d4a57;
+	padding:10px;
 }
 img{
 	width:40%;
@@ -30,6 +50,10 @@ img{
 .para3{
 	background:urlimg/tim.png);
 }
-.frst11{
- 
+.div1{
+	background-image:url(../img/tim.png);
+	background-repeat:no-repeat;
+	background-position:right;
+	text-align:justify;
+	padding-right:200px;
 }
