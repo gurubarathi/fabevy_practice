@@ -1,0 +1,35 @@
+h1{
+	
+	text-align:center;
+	font-size:50px;
+}
+p{
+	text-align:justify;
+	text-indent:90px;
+	font-size:25px;
+}
+body{
+    
+	color:white;
+	background-image:url(backblack.png);
+	background-repeat:no-repeat;
+    background-size:cover;
+    background-position:scroll;
+}
+img{
+	width:40%;
+	margin:center;
+	
+}
+#img2{
+	width:30%;
+}
+#img3{
+	width:200px;
+}
+.para3{
+	background:urlimg/tim.png);
+}
+.frst11{
+ 
+}
