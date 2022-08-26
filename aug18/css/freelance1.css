@@ -6,4 +6,11 @@
 	text-align:centre;
 	border:1%;
 }
-
+div a{
+	text-decoration:none;
+	padding:10px;
+	background-color:#0caaed;
+}
+header{
+	display:flex;
+}
