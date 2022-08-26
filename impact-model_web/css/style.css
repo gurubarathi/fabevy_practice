@@ -1,0 +1,74 @@
+/*top of the header (or) first sectio in Html*/
+.headertop{
+   background-color:#00796b;
+   height:40px;
+   font-size:14px;
+   color:#fff;
+   padding:0px;
+}
+.htop1{
+	align-items:center;
+	display:flex;
+	justify-content:space-between;
+	padding:10px;
+}
+.htop2 a{
+	color:#fff;
+	font-size:14px;
+	padding:5px;
+	text-decoration:none;
+	
+}
+.htop3 a {
+	color:#fff;
+	font-size:14px;
+	padding:5px;
+}
+/*first section style end*/
+
+/*header styles starts*/
+
+.atheader{
+	background-color:#008374;
+	height:90px;
+	
+}
+.ath1{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.ath1 a{
+	color:#fff;
+	text-decoration:none;
+}
+.ath2 a,li{
+	color:#fff;
+	text-decoration:none;
+	list-style-type:none;
+   
+}
+.ath3,li{
+	 display:flex;
+	 padding:15px;
+}
+
+/*header styles end*/
+
+/*section two starts*/
+
+.sectwo{
+	background-color:#008374;
+	width:100%;
+	height:400px;
+}
+.sectwo4,{
+	
+}
+.1img{
+	width:200px;
+	height:200px;
+	
+}
+
+/*section two end*/
