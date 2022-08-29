@@ -1,9 +1,15 @@
+.container{
+	width:90%;
+	margin:auto;
+}
 body{
 	font-family:roboto;
+	 background-color:#00796b;
+	 height:100vh;
 }
 /*top of the header (or) first sectio in Html*/
 .headertop{
-   background-color:#00796b;
+  
    height:40px;
    font-size:14px;
    color:#fff;
@@ -66,18 +72,36 @@ body{
 	height:400px;
 	display:flex;
 }
-.sectwo1{
+.sectwoa{
 	
+	justify-content:space-between;
+	padding:15px;
+	color:white;
+	text-align:justify;
+	vertical-align:20px;
 }
-.sectwo2{
+.sectwob{
 	
 }
 
-.sectwo3{
+.sectwoc{
 	
 }
-.sectwo4 {
+.sectwo4 img {
+	background-image:cover;
 	
 }
 
 /*section two end*/
+
+/*section about */
+.about{
+	text-align:center;
+	
+}
+.about p{
+	text-align:justify;
+	box-sizing:border-box;
+	margin:1em;
+	padding-left:150px;
+}
