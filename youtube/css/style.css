@@ -13,12 +13,16 @@ header {
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
-    padding:10px 18%;
+    padding:5px 10px;
 	border-bottom:1px solid rgba(219,219,219,1);
-	background-color:white;
+    background-color:white;
 }
-header .logo{
-	height:56px;
-	object-fit:contain;
-	 
+.menu ul li a{
+	text-decoration:none;
+	justify-content:space-between;
+	padding:10px;
+	color:black;
+	background-color:rgba(216, 202, 210, 0.9);
+	display:flex;
 }
+
