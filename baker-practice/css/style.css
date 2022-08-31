@@ -1,0 +1,51 @@
+*{
+	padding:0px;
+	margin:0px;
+}   
+   /* header */
+.banner{
+	background-image:url("backi.png");
+	height:600px;
+}
+header{
+	height:81px;
+	background-color:#374055e6;
+	align-items:center;
+	box-sizing:border-box;
+	border:1px solid red;
+}
+.product{
+	height:100px;
+	background-color:#fff34e;
+	border:1px solid red;
+}
+/*section about*/
+.about{
+	background-color:#ff3452;
+	height:484px;
+	display:flex;
+}
+.img1{
+	height:344px;
+	width:516px;
+	background-color:#3456e2;
+	border:1px solid red;
+	margin-left:130px;
+	margin-top:75px;
+	
+}
+.objects{
+	height:344px;
+	width:516px;
+	background-color:#3436e2;
+	border:1px solid red;
+	margin-left:40px;
+	margin-top:75px;
+}
+.counts{
+	background-color:#f248fe;
+	height:193px;
+}
+.heading1{
+	background-color:#
+}
