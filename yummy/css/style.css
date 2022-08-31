@@ -126,8 +126,18 @@ font-family:'calibri';
 }
 */
 .left-side .intro h2{
-	margin:50px;
-	
+	margin:80px;
+	font-size:45px;
+	color:#37373f;
+	font-family:Arial;
 	
 }
+.left-side .intro p{
+	margin:50px;
+	font-size:24px;
+	color:#4f4f5a;
+}
+
+
+
 
