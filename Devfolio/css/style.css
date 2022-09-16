@@ -18,11 +18,25 @@ body{
 .boxsizing{
 	box-size:border-box;
 }
+.text-algc{
+	text-align:center;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+p{
+	margin-top: 0;
+    margin-bottom: 1rem;
+}
+
  
  /*header*/
  
 header{
-color: #4e4e4e;
+background-color:rgba(0, 0, 0, 0.9);
 color:#fff;
 position:fixed;
 width:100%;
@@ -80,7 +94,12 @@ width:100%;
 .about{
 	
 	height:90vh;
-	background-color:#ccc;
+	background-color:#fff;
+	box-shadow:0 1px 1px 0 rgb(0 0 0 / 6%),
+	            0 2px 5px 0 rgb(0 0 0 / 20%);
+	margin-top:64px;
+	margin-bottom:64px;
+	
 }
 .l-side{
 	width:50%;
@@ -143,4 +162,24 @@ title-s{
 	line-height:30px;
 }
 
+/*Services section*/
 
+.service-h{
+	font-size: 3rem;
+    font-weight: bold;
+}
+.service-p{
+	color: #4e4e4e;
+}
+.service-ul{
+	 width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+.box1-c{
+	width:30%;
+	background-color:#fff;
+	border:red;
+}
