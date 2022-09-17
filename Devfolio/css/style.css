@@ -5,6 +5,7 @@ body{
 }
 .container{
  margin:0 10%;
+ width:80%;
 }
 .d-flex{
 	display:flex;
@@ -15,11 +16,17 @@ body{
 .justify-content-between{
 	justify-content:space-between;
 }
+.j-content-a{
+	justify-content:space-around;
+}
 .boxsizing{
 	box-size:border-box;
 }
 .text-algc{
 	text-align:center;
+}
+.flex-wrap{
+	flex-wrap:wrap;
 }
 h1,h2,h3,h4,h5,h6{
 	margin-top: 0;
@@ -176,10 +183,95 @@ title-s{
     height: 5px;
     background-color: #0078ff;
     margin: 0 auto;
+	margin-bottom:64px;
+}
+.s-titile{
+	font-size: 1.4rem;
+}
+.s-description{
+	color: #4e4e4e;
+	padding:10px;
+	line-height:20px;
+}
+.box1-c{
+	width:32%;
+	background-color:#fff;
+	border-radius: 1rem;
+	padding:40px 20px;
+	box-sizing:border-box;
+	margin-bottom:40px;
+}
+.icon-s {
+	color: #1e1e1e;
+	height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height:4rem;
+    margin: 0 auto;
+    box-shadow: 0 0 0 10px #0078ff;
+	margin-top:40px;
+	margin-bottom:40px;
+	box-sizing:border-box;
+	padding-top:25px;
+}
+.icon-s i{
+	font-size:40px;
+	text-align:center;
+}
+/*service counter*/
+
+.bg-counter{
+	background-image:url("../img/counters-bg.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+	height:65vh;
+	position:relative;
+	z-index:-1;
 }
 
-.box1-c{
-	width:30%;
-	background-color:#fff;
-	border:red;
+.bg-counter::after{
+	position:absolute;
+	background-color:#0078ff;
+	content:"";
+	opacity:0.7;
+	height:65vh;
+	width:100%;
+}
+.s-container{
+	position:absolute;
+	z-index:1;
+	margin-top:64px;
+
+}
+.box1{
+	color:#fff;
+	margin-top:10vh;
+	text-align:center;
+	align-items:center;
+}
+.icon-c {
+	border-radius: 100%;
+    margin-top:20px;
+	margin-left:20px;
+	margin-bottom:25px;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 0 0 10px #cde1f8;
+	box-sizing:border-box;
+	font-size:32px;
+	padding-top:10px;
+	align-items:center;
+	
+} 
+.count{
+	position:center;
+}
+.count p{
+	    font-size: 2rem;
+		margin-bottom:10px;
+		margin-top:10px;
+		text-align:center;
 }
