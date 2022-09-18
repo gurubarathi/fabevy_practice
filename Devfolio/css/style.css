@@ -275,3 +275,49 @@ title-s{
 		margin-top:10px;
 		text-align:center;
 }
+/*secttion portfolio*/
+.port-head{
+	padding-top:64px;
+	padding-bottom:40px;
+}
+.port-head h3{
+	font-size: 3rem;
+    font-weight: bold;
+	text-transform:uppercase;
+}
+.port-head p{
+	color: #4e4e4e;
+}
+.box-p1{
+	width:33%;
+}
+.img-p img{
+	width:100%;
+	height:35vh;
+}
+.img-cont{
+	width:100%;
+	box-sizing:border-box;
+	padding:12px;
+	background-color:#fff;
+}
+.img-cont2{
+	font-size:30px;
+	box-sizing:border-box;
+	width:40px;
+	height:40px;
+	color: #007aff;
+	font-weight:bold;
+	border:2px solid #007aff;
+	border-radius:50%;
+	text-align:center;
+}
+.img-cont1{
+	padding:12px;
+}
+.img-cont1 h2{
+	font-weight:bold;
+}
+.img-cont1 p span{
+	color:#007aff;
+}
