@@ -5,6 +5,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
 </head>
 <body>
+ <!-- Header-->
+ 
  <header>
  <div class="container d-flex align-items justify-content-between positiont headeri">
      <h1 class="logo">DevFolio</h1>
@@ -21,13 +23,20 @@
 	 </nav>
    </div>
    </header>
-<section class="b-ground">
+   
+     <!--Section Banner-->
+	 
+ <section class="b-ground">
    <div class="title-backg boxsizing">
      <h1>I am Morgan Freeman</h1>
 	 <p>Designers</p>
    </div>
  </section>
+ 
 <main>
+
+   <!--Section About-->
+   
     <section class="about container d-flex ">
 		
 		<div class="l-side">
@@ -44,35 +53,46 @@
 			  <p><span class="title-s"><b>Phone:</b> </span> <span>(617) 557-0089</span></p>
 			</div>
 		  </div>
+		  
 		  <div class="l-botom boxsizing">
 		  
 		    <p class="skill-p">Skill</p>
+			
 			<p>HTML <span>85%</span></p>
-			<div class="range1"><div class="range1a">
-			</div>
+			<div class="range1">
+				<div class="range1a"></div>
 			</div>
 		  
 		  
 			<p> CSS <span>75%</span></p>
-			<div class="range1"><div class="range1b"></div></div>
+			<div class="range1"> 
+				<div class="range1b"></div>
+			</div>
 			
 			<p> PHP <span>50%</span></p>
-			<div class="range1"><div class="range1c"></div></div>
+			<div class="range1">
+				<div class="range1c"></div>
+			</div>
 			
 			<p> JAVASCRIPT <span>90%</span></p>
-			<div class="range1"><div class="range1d"></div></div>
+			<div class="range1">
+				<div class="range1d"></div>
+			</div>
 		  
 		   </div> 
 		</div>
+		
 		<div class="r-side boxsizing">
-		  <h5 class="title-left"> About me</h5>
+		
+		  <h5> About me</h5>
 		  <p class="lead"> Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla porttitor accumsan tincidunt.</p>
 		   
 		  <p class="lead"> Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis porttitor volutpat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.</p>
 		  
-		  <p class="lead"> Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+		  <p class="lead"> Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Nulla porttitor accumsan tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinara.</p>
 		</div>
-    </section>	
+    </section>
+	
 	
 	<!--Services section-->
 	
@@ -314,6 +334,8 @@
 	</section>
 	
 	<!--section Blog-->
+	
+	
 	<section class="blog">
 	    <div class="container">
 			   <div class="port-head text-algc">
@@ -404,27 +426,61 @@
 	
 	<!--section footer-->
   
-  <section class="footer">
-     <div class="form container d-flex">
+  <section class="footer-t">
+     <div class="form container d-flex ">
 	    <div class="left-s">
 		  <div class="left-h">
 		    <h5>Send Message Us</h5>
 			<div class="left-u1"> </div>
 		  </div>
-		  <div class="left-form">
+		  <div class="left-form text-algc">
 		   
 			  <input type="name" placeholder="Your Name">
 			  <input type="email" placeholder="Your Email">
 			  <input type="text" placeholder="Subject">
-			  <input type="textarea" placeholder="Message">
+			  <input type="textarea" placeholder="Message" id="txtarea">
+			  <button type="button" id="button-f">Send Message</button>
 
 		  </div>
 		</div>
 		 <div class="right-s">
+		     <div class="right-h">
+				<h5>Get in Touch</h5>
+				<div class="right-u1"> </div>
+		     </div>
+			 <div class="right-cont">
+				 <p>
+				 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+			 </div>
+			 <div class="right-ic">
+			    <i class="bi bi-geo-alt"></i>
+				<span>329 WASHINGTON ST BOSTON, MA 02108</span>
+			 </div>
+			  <div class="right-ic">
+			    <i class="bi bi-phone"></i>
+				<span>(617) 557-0089</span>
+			 </div>
+			 <div class="right-ic">
+			   <i class="bi bi-envelope"></i>
+			   <span>contact@example.com</span>
+			 </div>
+			 <div class="right-icons">
+			    <i class="bi bi-facebook"></i>
+				<i class="bi bi-instagram"></i>
+				<i class="bi bi-twitter"></i>
+				<i class="bi bi-linkedin"></i>
+			 </div>
 		</div>
 			
+	  </div>
+	 </section>
+	 <footer class="footer-botm">
+	     <div class="container f-content">
+		    <p>© Copyright<b>DevFolio.</b> All Rights Reserved</p>
+			<span>Designed by BootstrapMade</span>
+		 </div>
 	 </div>
-  </section>
+     </footer>
 	
 </main>
 <footer>

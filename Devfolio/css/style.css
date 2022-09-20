@@ -100,7 +100,7 @@ width:100%;
 	text-align:center;
 }
 
-/*about section*/
+  /*about section*/
 
 .about{
 	
@@ -119,17 +119,15 @@ width:100%;
 	align-items:center;
 	justify-content:space-around;
 }
+
 .r-side{
 	width:50%;
-}
-.r-side h5{
-	font-size: 2rem;
-	margin:0;
 	padding:20px;
+	box-sizing:border-box;
 }
-.r-side{
-	font-size: 1.25rem;
-    font-weight: 300;
+.photo{
+	height:30vh;
+	padding:20px;
 }
 .profile-p{
 	width:50%;
@@ -138,6 +136,24 @@ width:100%;
 .name{
 	width:50%;
 }
+.l-botom{
+	height:40vh;
+	padding:0px 20px;
+}
+.r-side h5{
+	font-size: 2rem;
+	margin:0;
+	margin-bottom:10px;
+}
+.lead{
+	line-height:30px;
+}
+.r-side{
+	font-size: 1.25rem;
+    font-weight: 300;
+}
+
+
 .title-s{
 	font-weight: 600;
     color: #1e1e1e;
@@ -173,9 +189,7 @@ width:100%;
 	height:2.2vh;
 	background-color: #0078ff;
 }
-.lead{
-	line-height:30px;
-}
+
 
 /*Services section*/
 
@@ -451,36 +465,114 @@ hr{
 
 /*section footer*/
 
-.footer{
-	height:130vh;
-	background-color:gray;
-	padding-top:64px;
+.footer-t{
+	height:90vh;
+	width:100%;
+	background-image:url("../img/overlay-bg.jpg");
+	background-attachment:fixed;
+	background-position:center center;
+	background-size:cover;
+	position:relative;
+	z-index:-1;
+}
+.footer-t::after{
+	background-color: #0078ff;
+	position:absolute;
+	opacity:0.7;
+	content:"";
+	height:90vh;
+	width:100%;
 }
 .form{
-	height:100vh;
+	height:80vh;
 	background-color:#fff;
 	box-sizing:border-box;
-	margin-top:48px;
+	margin-top:64px;
 	justify-content:space-between;
 	padding:48px;
+	position:absolute;
+	z-index:1;
 }
 .left-s{
 	width:49%;
-	background-color:blue;
+	
 }
 .left-h{
-	font-size: 2rem;
+	font-size: 2.25rem;
 	word-spacing:5px;
 }
 .left-u1{
-	 width: 70px;
+	width: 85px;
     height: 3px;
     background-color: #0078ff;
+	margin-bottom:12px;
+}
+.left-form{
+	width:100%;
+}
+.left-form input{
+	width:99%;
+	padding:13px;
+	box-sizing:border-box;
+	margin-top:15px;
+	text-align:left;
+}
+#txtarea{
+	height:20vh;
+	text-align:top;
+	margin-bottom:20px;
+}
+#button-f{
+	background-color: #0078ff;
+	border:none;
+	color:#fff;
+	font-size:1.25em;
+	padding:12px 15px;
+	border-radius:25px;
+	text-align:center;
 }
 .right-s{
 	width:49%;
-	background-color:yellow;
+
 }
-.orgi-f{
+.right-h{
+	font-size: 2.25rem;
+	word-spacing:5px;
+}
+.right-u1{
+	width: 85px;
+    height: 3px;
+    background-color: #0078ff;
+	margin-bottom:12px;
+}
+.right-cont{
+	font-size:1.5rem;
+	text-align:left;
+	line-height:30px;
+}
+.right-ic{
+	margin-top:16px;
+}
+.right-ic i{
+	color:#0078ff;
 	
+}
+.right-icons{
+  font-size:1.25rem;
+  margin-top:25px;
+  
+}
+.right-icons i{
+	border:3px solid #0078ff;
+	padding:10px;
+	border-radius:50%;
+	margin-left:5px;
+}
+.footer-botm{
+	height:17vh;
+	background-color:#0062d3;
+	color:#fff;
+	text-align:center;
+	padding-top:25px;
+	box-sizing:border-box;
 }
