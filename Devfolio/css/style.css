@@ -287,27 +287,25 @@ width:100%;
 	text-align:center;
 	align-items:center;
 }
-.icon-c {
+.icon-c i{
 	border-radius: 100%;
-    margin-top:20px;
-	margin-left:20px;
-	margin-bottom:25px;
     height: 60px;
     width: 60px;
     box-shadow: 0 0 0 10px #cde1f8;
 	box-sizing:border-box;
 	font-size:32px;
-	padding-top:10px;
 	align-items:center;
-	
+	text-align:center;
+	padding:10px;
 } 
+
 .count{
 	position:center;
 }
 .count p{
 	    font-size: 2rem;
 		margin-bottom:10px;
-		margin-top:10px;
+		margin-top:30px;
 		text-align:center;
 }
 /*secttion portfolio*/
@@ -337,7 +335,7 @@ width:100%;
 	box-sizing:border-box;
 	padding:12px;
 	background-color:#fff;
-	box-shadow:0 2px 0 0 ;
+	box-shadow:0 1px 1px 0 #ccc;
 }
 .img-cont2{
 	font-size:30px;
@@ -431,6 +429,7 @@ width:100%;
 	text-align:left;
 	padding-left:20px;
 	background-color:#fff;
+	border:1px solid #ccc;
 
 }
 .b1-pop{
@@ -450,6 +449,8 @@ width:100%;
 .b1-cont h3{
 	    font-size: 1.3rem;
 		font-weight:200px;
+		
+		
 }
 .b1-pic{
 	height:12%;
@@ -459,6 +460,8 @@ width:100%;
 	padding:7px;
 	align-items:center;
 	border-radius:5px;
+	box-shadow:1px o 1px 0 #ccc;
+	border:1px solid #ccc;
 }
 .b1-icon{
 	width:60%;
