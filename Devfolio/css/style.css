@@ -57,8 +57,11 @@ width:100%;
 .nav{
 	width:60%;
 }
-.nav li{
+.nav a ul li{
 	list-style:none;
+	color:#fff;
+	text-decoration:none;
+	
 }
 
 /*background banner*/
@@ -164,6 +167,12 @@ width:100%;
     color: #1e1e1e;
     font-size: 1.1rem;
 }
+#htmlv{
+	height:30px;
+	width:100%;
+   
+	
+}
 .range1{
 	width:100%;
 	height:2.2vh;
@@ -236,6 +245,10 @@ width:100%;
 	margin-bottom:40px;
 	box-sizing:border-box;
 	padding-top:25px;
+}
+.icon-s:hover{
+	background-color: #0078ff;
+	box-shadow: 0 0 0 10px #dee2e6;
 }
 .icon-s i{
 	font-size:40px;
@@ -561,6 +574,10 @@ hr{
   font-size:1.25rem;
   margin-top:25px;
   
+}
+.right-icons:hover{
+	background-color: #0078ff;
+	box-shadow: 0 0 0 10px #dee2e6;
 }
 .right-icons i{
 	border:3px solid #0078ff;
