@@ -1,0 +1,17 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+  
+}
+.contact h2::after{
+	content:"";
+	width:120px;
+	height:5px;
+	background-color:red;
+	display:inline-block;
+}
+.map, .map iframe{
+	height:55vh;
+	width:100%;
+}
