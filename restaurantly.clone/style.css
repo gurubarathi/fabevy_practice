@@ -2,16 +2,70 @@
   margin:0px;
   padding:0px;
   box-sizing:border-box;
-  
+  font-family: "Open Sans", sans-serif;
 }
-.contact h2::after{
+.container{
+	width:80%;
+	margin:0 auto;
+}
+.d-flex{
+	display:flex;
+}
+ /*Section about*/
+     /*contant-head*/
+.contact{
+	background-color:#0c0b09;
+	color:#fff;
+}
+.contact-head{
+	background-color:yellow;
+}
+.contact-head h2{
+	
+}
+.contact-head h2::after{
 	content:"";
 	width:120px;
-	height:5px;
+	height:2px;
 	background-color:red;
 	display:inline-block;
+	margin-bottom:5px;
 }
+.contact-head p{
+	font-size:36px;
+}
+    /*map*/
 .map, .map iframe{
 	height:55vh;
 	width:100%;
+}
+  /*address*/
+.left-address{
+	width:30%;
+	background-color:blue;
+}
+.right-address{
+	width:70%;
+	background-color:red;
+}
+.left-content p{
+	font-size:14px;
+	
+}
+/*footer*/
+.top-box1{
+	background-color:green;
+	width:25%;
+}
+.top-box2{
+	background-color:yellow;
+	width:20%;
+}
+.top-box3{
+	background-color:blue;
+	width:20%;
+}
+.top-box4{
+	background-color:red;
+	width:35%;
 }
