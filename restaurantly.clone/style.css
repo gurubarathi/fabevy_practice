@@ -11,7 +11,36 @@
 .d-flex{
 	display:flex;
 }
- /*Section about*/
+.justify-sb{
+	justify-content:space-between;
+}
+.flex-wr{
+	flex:wrap;
+}
+ /*Section gallery start*/
+.gallery-img{
+	width:98%;
+	height:80vh;
+}
+.gallery-img img{
+	width:24.5%;
+	height:40vh;
+}
+
+ /*Section gallery end*/
+ 
+ /*Section chef start*/
+.chef-p1 {
+	width:32%;
+	height:55vh;
+} 
+.chef-p1 img{
+	width:100%;
+	height:55vh;
+}
+ /*Section Chef end*/
+ 
+ /*Section about start*/
      /*contant-head*/
 .contact{
 	background-color:#0c0b09;
@@ -52,6 +81,8 @@
 	font-size:14px;
 	
 }
+ /*section about end*/
+ 
 /*footer*/
 .top-box1{
 	background-color:green;
