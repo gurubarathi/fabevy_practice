@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>form practice</title>
+   <style>
+     *{
+	  font-size:18px;
+	 }
+     h1{
+	   text-align:center;
+	   font-size:20px;
+	 }
+     .form1{
+	  background-color:#4086b8;
+	  margin:0 auto;
+	  width:60%;
+	 }
+	 form ul li{
+	   margin:0 auto;
+	   align-items:center;
+	 }
+	 
+     #submit{
+	  border-radius:12px;
+	  padding:3px;
+	  border:0.5px soild black;
+	  margin-top:20px;
+	  width:80px;
+	  }
+	 #submit1{
+	 margin-left:0px;
+	 }
+	 .subul li{
+	  list-style-type:disc;
+	 
+	 }
+   </style>
+   <style>
+     body{
+	  background-color:#7d756b;
+	  width:100%;
+	 }
+     .form2{
+	  background-color:#f2af57;
+	  margin:0 auto;
+	  margin-top:40px;
+	  width:60%;
+	 
+	 }
+   </style>
+ </head>
+ <body>
+    <h1>My feedback form</h1>
+	<form class="form1">
+	   <fieldset>
+	   <ul>
+	      <li>Name:<input size="20"></li>
+		  <li>Email:<input type="email" size="20"></li>
+		  <li>Password:<input type="password" size="20"></li>
+		  <br>
+		  <li> Please check all the emotions that apply to you:
+		    <ul class="subul">
+			  <li>Angry<input type="checkbox" checked></li>
+			  <li>Sad<input type="checkbox"></li>
+			  <li>Happy<input type="checkbox"></li>
+			  <li>Ambivalent<input type="checkbox"></li>
+			</ul>
+		 </li>
+		  <li>How satisfied were you with our services?
+		    <ul class="subul">
+			  <li>Very satisfied<input type="radio"checked></li>
+			  <li>Satisfied<input type="radio"></li>
+			  <li>Didn't care<input type="radio"></li>
+			  <li>Dissatisfied<input type="radio"></li>
+			  <li>Very dissatisfied<input type="radio"></li>
+			</ul>
+		  </li>
+		  <br>
+		  <li>Further comments:<textarea>comments</textarea></li>
+		  <li>Bio photo <input type="file"></li>
+		  <li>Location visited:
+			  <select id="select">
+				<option>America</option>
+				<option>Austrialia</option>
+				<option>India</option>
+			  </select>
+		  </li>
+		  <br>
+		  <li id="submit1"><input type="submit" value="sumbit" id="submit"></li>
+	   </ul>
+	  </fieldset>
+	</form>
+	
+	  <form class="form2">
+	    <table> 
+		  <tr>
+		  <td>Full Name</td><td><input placeholder="guru"></td>
+		  </tr>
+		   <tr>
+		  <td>Email</td><td><input placeholder="abcd@gmail.com"></td>
+		  </tr>
+		  <tr>
+            <td>Gender</td>
+		    <td><input type="radio">Male
+		      <input type="radio">Female
+			 </td> 
+		  </tr>
+		  <tr>
+		    <td>Nationality</td>
+			<td>
+			   <select>
+			     <option>Indian</option>
+				 <option>American</option>
+				 <option>African</option>
+			   </select>
+			</td>
+		  </tr>
+		  <tr> 
+		      <td>Skills</td>
+			  <td><input type="checkbox" checked>Asp.Net
+			      <input type="checkbox" checked>jQuery<br>
+				  <input type="checkbox">MVC
+				  <input type="checkbox" checked>Sql Server
+			  </td>
+		  </tr>
+		  <tr>
+		    <td>Post applying for</td>
+			<td>
+			  <input type="radio">Trainee
+			  <input type="radio" checked>Software Engineer<br>
+			  <input type="radio">Team Leader
+			  <input type="radio">Project manger
+			</td>
+		  </tr>
+		  <tr>
+		    <td>Upload Resume</td>
+			<td><input type="file"></td>
+		  </tr>
+		  <tr>
+		    <td>Paste your resume</td>
+			<td><textarea>sample resume text...</textarea></td>
+		  </tr>
+		  <tr>
+		    <td><input type="checkbox" checked>Notify me the status via Email</td>
+		  </tr>
+		  <tr>
+			<td><input type="radio" checked>I agree to terms&conditions</td>
+		</tr>
+		</table>
+	  </form>
+ </body>
+</html>
