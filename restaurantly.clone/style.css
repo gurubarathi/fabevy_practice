@@ -30,6 +30,7 @@
 	list-style:none;
 }
 /*Headder start*/
+
 .banner{
 	background-image:url("img/hero-bg.jpg");
 	background-position:center center;
@@ -221,32 +222,63 @@ header{
  
 /*footer start*/
 footer{
-	background-color:black;
+	background-color:#0c0b09;
 }
 .footer-top{
-	grid-template-columns: 1.5fr 1fr 1fr 2fr;
-	gap: 20px;
+	padding:30px 0px;
 }
 .top-box1{
-	display:grid;
-	justify-content:space-between;
+	width:30%;
+}
+.social-media a i{
+	background-color:rgba(68, 61, 64, 0.8);
+	padding:8px;
+	border-radius:15px;
+	margin-top:10px;
+	display:inline-block;
+	margin-right:5px;
+}
+.top-box2 {
+    width:19.5%;
+}
+.style-ul li i{
+	color:rgba(210, 142, 22, 0.8);
+	padding:5px;
 	
 }
-
-.top-box2 {
-
-	
-	display:grid;
-	justify-content:space-between;
-
+.style-ul li{
+	display:block;
+	margin-bottom:16px;
+}
+.useful-link p{
+	margin-bottom:10px;
 }
 .top-box3 {
-	display:grid;
-	justify-content:space-between;
+	width:19.5%
+}
+.top-box3 p{
+	margin-bottom:10px;
 }
 .top-box4{
-display:grid;
-	justify-content:space-between;
+   width:30%;
+}
+.email-submit input{
+	border-radius:20px;
+	background-color:rgba(68, 61, 64, 0.8);
+	padding:10px;
+	width:18vw;
+	border:1px solid rgba(84, 83, 81, 0.92);
+	margin-top:20px;
+	overflow:hidden;
+}
+.email-submit button{
+	background-color:rgba(210, 142, 22, 0.8);
+	font-size:16px;
+	padding:10px 20px;
+	border-radius:20px;
+	display:inline-block;
+	margin-left:-30px;
+	
 }
 .footer-bottom{
 	display:grid;
