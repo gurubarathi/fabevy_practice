@@ -7,7 +7,7 @@
 	color:blue;
 	/*class selector*/
 }
-.frontend h3,p{
+.frontend h3,p,h2{
 	color:gray;
 	/*group selector*/
 }
@@ -45,13 +45,30 @@ div  li{
 }
 .websites a:hover{
 	background-color:rgba(245, 129, 39, 0.8);
+	font-size:30px;
 	/*when mouse over on links */
 }
 .websites a:active{
 	color:red;
+}	
 	/*when clicking the links*/
+.psuedo p:first-child{
+	color:red;
+	/*first-child means if in section or any div having it a first child*/
+	/*last-child also available*/
+}	
+input:checked{
+	width:20px;
+	height:30px;
+	color:red;
+	/*checked means the input checkbox and radio type style*/
 }
+.table2 tr:nth-child(odd){
+	background-color:blue;
+}
+
 /*4.psuedo element selector*/
+
 .frontend h1::first-letter{
 	font-size:50px;
 	color:rgba(110, 129, 39, 0.8);
@@ -65,6 +82,15 @@ div  li{
 .frontend p::after{
 	content:"/**/";
 }
+::marker{
+	color:red;
+	font-size:30px;
+}
+::selection{
+	color:green;
+	background-color:black;
+}
+
 
 /*5.Attribute selector*/
  /*[attribute should be inside]*/
@@ -77,6 +103,9 @@ input{
 	font-size:30px;
 	color:red;
 }
- a [title]{
-	color:red;
+[title~="mentor"]{
+	border:2px solid red;
+}
+table{
+	border-collapse:collapse;
 }
