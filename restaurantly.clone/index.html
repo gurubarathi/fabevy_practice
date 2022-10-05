@@ -129,7 +129,7 @@
 	 <div class="address container d-flex">
 	 
 	    <div class="left-address">
-		    <div class="d-flex">
+		    <div class="d-flex justify-sb loc-box">
 			   <div class="left-icons">
 				 <i class="bi bi-geo-alt"></i>
 			   </div>
@@ -139,17 +139,18 @@
 			   </div>
 			</div>
 			
-			<div class="d-flex">
+			<div class="d-flex justify-sb loc-box">
 			   <div class="left-icons">
 				<i class="bi bi-clock"></i>
 			   </div>
 			   <div class="left-content">
 				  <h4>Open Hours:</h4>
-				  <p>Monday-Saturday: <br>11:00 AM - 2300 PM</p>
+				  <p>Monday-Saturday:</p>
+				  <p> 11:00 AM - 2300 PM</p>
 			   </div>
 			</div>
 			
-			<div class="d-flex">
+			<div class="d-flex justify-sb loc-box">
 			   <div class="left-icons">
 				<i class="bi bi-envelope"></i>
 			   </div>
@@ -158,7 +159,7 @@
 				  <p>info@example.com</p>
 			   </div>
 			</div>
-			 <div class="d-flex">
+			 <div class="d-flex justify-sb loc-box">
 			   <div class="left-icons">
 				<i class="bi bi-phone"></i>
 			   </div>
@@ -172,9 +173,11 @@
 		<div class="right-address">
 		  <form>
 		    <input type="name" placeholder="Your Name" >
-			<input type="mail" placeholder="Your Email" >
-			<input type="text" placeholder="Subject">
-			<textarea>Message</textarea>
+			<input type="mail" placeholder="Your Email"  >
+			
+			<input type="text" placeholder="Subject" id="subject">
+			
+			<textarea rows="10">Message</textarea>
 			<button type="submit">Send Message</button>
 		  </form>
 		</div>
@@ -236,6 +239,7 @@
 	   </div>
 	</div>
 	<hr>
+	
 	<div class="footer-bottom ">
 	   <div class="fb-cont container">
 	      <p>&copy; Copyright Restaurantly.All Rights Reserved</p>
