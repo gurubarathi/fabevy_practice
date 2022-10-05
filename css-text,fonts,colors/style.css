@@ -1,0 +1,11 @@
+body{
+	margin:0px;
+}
+.a{
+	background-color:blue;
+	color:white;
+	text-align:center;
+}
+ol li {
+	font-size:1.25rem;
+}
