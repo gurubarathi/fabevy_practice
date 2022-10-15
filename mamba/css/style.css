@@ -1,11 +1,7 @@
-*{
-	margin:0px;
-	padding:0px;
-	box-sizing:border-box;
-}
+
 .container{
-	width:90%;
-	margin:auto;
+
+	margin:0 2.5rem;
 }
 .d-flex{
 	display:flex;
@@ -13,6 +9,7 @@
 .justify-space{
 	justify-content:space-between;
 }
+
 /*header-top h-top*/
 .h-top{
 	padding:1rem;
@@ -52,21 +49,88 @@
 .social-link i{
 	padding-right:1.5rem;
 	color:#000;
-}
+}}
+/*header-top- end*/
 
-}
+/*header start*/
+
 header{
 	padding:1rem;
 }
 .nav{
 	display:none;
 }
+.logo{
+	font-size:2rem;
+}
 .toogle {
-	font-size:1.5rem;
+	font-size:2rem;
 	font-weight:bold;
 }
+@media(min-width:760px){
+	.nav{
+		display:block;
+		width:40vw;
+	}
+	.nav li{
+		justify-content:space-between;
+		
+	}
+	.toogle{
+		display:none;
+	}
+}
 
+/*section banner*/
+.banner{
+	background-image:url("../img/slide/slide-3.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:top left;
+	background-repeat:no-repeat;
+	width:100%;
+	height:80vh;
+	position:relative;
+}
+.banner::before{
+	content:"";
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0.7);
+	
+}
+.container-position{
+	position:absolute;
+}
+.banner-content{
+	position:absolute;
+	
+	text-align:left;
+	color:#fff;
+	width:40vw;
+	margin-top:5rem;
+	margin-left:4rem;
+}
 
+.banner-content h1{
+	font-size:2.5rem;
+	line-height:6rem;
+	
+}
+.banner-content p{
+	font-size:1.2rem;
+	line-height:1.5rem;
+}
+.banner-content button{
+   color:#fff;
+   background-color:blue;
+   padding:0.7rem 2rem;
+   border-radius:10px;
+   border:none;
+   margin-top:2rem;
+}
 /*
 .aboutus{
 	margin-top:30px;
